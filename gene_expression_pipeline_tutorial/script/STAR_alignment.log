@@ -1,0 +1,42 @@
+STAR Alignment on: sample_A
+	STAR --runThreadN 12 --genomeDir ../reference/mm10_ref/genome_index/ --sjdbGTFfile ../reference/mm10_ref/gencode.vM19.chr_patch_hapl_scaff.annotation.gtf --readFilesIn ../dataset/raw_fastq/sample_A_1.fq.gz ../dataset/raw_fastq/sample_A_2.fq.gz --quantMode GeneCounts --sjdbOverhang 149 --sjdbScore 2 --alignIntronMax 500000 --alignIntronMin 20 --alignSJoverhangMin 8 --alignSoftClipAtReferenceEnds Yes --chimJunctionOverhangMin 15 --chimMainSegmentMultNmax 1 --chimSegmentMin 15 --alignMatesGapMax 1000000 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped None --outSAMmultNmax 1 --outFileNamePrefix ../dataset/bam_file//sample_A --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNoverLmax 0.1 --outFilterMismatchNmax 10 --outFilterScoreMinOverLread 0.33 --outFilterMatchNminOverLread 0.33 --outFilterType BySJout --limitBAMsortRAM 70000000000 --limitSjdbInsertNsj 2000000 --twopassMode Basic
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Jul 20 20:09:51 ..... started STAR run
+Jul 20 20:09:51 ..... loading genome
+Jul 20 20:10:03 ..... processing annotations GTF
+Jul 20 20:10:12 ..... inserting junctions into the genome indices
+Jul 20 20:11:38 ..... started 1st pass mapping
+Jul 20 20:11:40 ..... finished 1st pass mapping
+Jul 20 20:11:41 ..... inserting junctions into the genome indices
+Jul 20 20:13:11 ..... started mapping
+Jul 20 20:13:14 ..... finished mapping
+Jul 20 20:13:14 ..... started sorting BAM
+Jul 20 20:13:15 ..... finished successfully
+STAR Alignment on: sample_B
+	STAR --runThreadN 12 --genomeDir ../reference/mm10_ref/genome_index/ --sjdbGTFfile ../reference/mm10_ref/gencode.vM19.chr_patch_hapl_scaff.annotation.gtf --readFilesIn ../dataset/raw_fastq/sample_B_1.fq.gz ../dataset/raw_fastq/sample_B_2.fq.gz --quantMode GeneCounts --sjdbOverhang 149 --sjdbScore 2 --alignIntronMax 500000 --alignIntronMin 20 --alignSJoverhangMin 8 --alignSoftClipAtReferenceEnds Yes --chimJunctionOverhangMin 15 --chimMainSegmentMultNmax 1 --chimSegmentMin 15 --alignMatesGapMax 1000000 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped None --outSAMmultNmax 1 --outFileNamePrefix ../dataset/bam_file//sample_B --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNoverLmax 0.1 --outFilterMismatchNmax 10 --outFilterScoreMinOverLread 0.33 --outFilterMatchNminOverLread 0.33 --outFilterType BySJout --limitBAMsortRAM 70000000000 --limitSjdbInsertNsj 2000000 --twopassMode Basic
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Jul 20 20:13:15 ..... started STAR run
+Jul 20 20:13:15 ..... loading genome
+Jul 20 20:13:27 ..... processing annotations GTF
+Jul 20 20:13:36 ..... inserting junctions into the genome indices
+Jul 20 20:15:03 ..... started 1st pass mapping
+Jul 20 20:15:06 ..... finished 1st pass mapping
+Jul 20 20:15:06 ..... inserting junctions into the genome indices
+Jul 20 20:16:36 ..... started mapping
+Jul 20 20:16:39 ..... finished mapping
+Jul 20 20:16:40 ..... started sorting BAM
+Jul 20 20:16:40 ..... finished successfully
+STAR Alignment on: sample_C
+	STAR --runThreadN 12 --genomeDir ../reference/mm10_ref/genome_index/ --sjdbGTFfile ../reference/mm10_ref/gencode.vM19.chr_patch_hapl_scaff.annotation.gtf --readFilesIn ../dataset/raw_fastq/sample_C_1.fq.gz ../dataset/raw_fastq/sample_C_2.fq.gz --quantMode GeneCounts --sjdbOverhang 149 --sjdbScore 2 --alignIntronMax 500000 --alignIntronMin 20 --alignSJoverhangMin 8 --alignSoftClipAtReferenceEnds Yes --chimJunctionOverhangMin 15 --chimMainSegmentMultNmax 1 --chimSegmentMin 15 --alignMatesGapMax 1000000 --alignSJDBoverhangMin 1 --genomeLoad NoSharedMemory --readFilesCommand zcat --outSAMtype BAM SortedByCoordinate --outSAMstrandField intronMotif --outSAMattributes NH HI NM MD AS XS --outSAMunmapped None --outSAMmultNmax 1 --outFileNamePrefix ../dataset/bam_file//sample_C --outFilterMultimapScoreRange 1 --outFilterMultimapNmax 20 --outFilterMismatchNoverLmax 0.1 --outFilterMismatchNmax 10 --outFilterScoreMinOverLread 0.33 --outFilterMatchNminOverLread 0.33 --outFilterType BySJout --limitBAMsortRAM 70000000000 --limitSjdbInsertNsj 2000000 --twopassMode Basic
+	STAR version: 2.7.10b   compiled: 2022-11-01T09:53:26-04:00 :/home/dobin/data/STAR/STARcode/STAR.master/source
+Jul 20 20:16:40 ..... started STAR run
+Jul 20 20:16:40 ..... loading genome
+Jul 20 20:16:52 ..... processing annotations GTF
+Jul 20 20:17:02 ..... inserting junctions into the genome indices
+Jul 20 20:18:29 ..... started 1st pass mapping
+Jul 20 20:18:31 ..... finished 1st pass mapping
+Jul 20 20:18:31 ..... inserting junctions into the genome indices
+Jul 20 20:20:02 ..... started mapping
+Jul 20 20:20:05 ..... finished mapping
+Jul 20 20:20:06 ..... started sorting BAM
+Jul 20 20:20:06 ..... finished successfully
